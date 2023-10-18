@@ -5,4 +5,5 @@
     <color name="botonescol">#CEE5F2</color>
     <color name="backgroudcol">#002147</color>
     <color name="uicol">#BF4F51</color>
+    <color name="textcol">#FFFFFF</color>
 </resources>
