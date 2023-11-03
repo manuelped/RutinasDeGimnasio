@@ -18,59 +18,65 @@
         android:layout_height="match_parent">
 
         <ImageView
-            android:id="@+id/inicio"
+            android:id="@+id/marcotitulo"
             android:layout_width="411dp"
             android:layout_height="150dp"
-            app:srcCompat="@color/uicol"
-            tools:layout_editor_absoluteX="-16dp"
-            tools:layout_editor_absoluteY="-17dp" />
+            android:layout_marginBottom="50dp"
+            app:layout_constraintBottom_toTopOf="@+id/marcologin"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@color/uicol" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:layout_marginTop="20dp"
             android:elevation="1dp"
             android:text="Home Screen Title"
             android:textColor="@color/textcol"
             android:textSize="35dp"
             android:textStyle="bold"
-            android:layout_marginTop="40dp"
+            app:layout_constraintBottom_toBottomOf="@+id/marcotitulo"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <ImageView
-            android:id="@+id/inicio"
+            android:id="@+id/marcologin"
             android:layout_width="300dp"
             android:layout_height="400dp"
-            android:layout_marginTop="100dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/inicio"
+            app:layout_constraintTop_toBottomOf="@+id/marcotitulo"
             app:srcCompat="@color/uicol" />
 
         <Button
             android:id="@+id/btnEmpezar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="70dp"
             android:layout_gravity="center"
+            android:layout_marginTop="76dp"
             android:text="Empezar"
             android:textColor="@color/textcol"
-            app:layout_constraintTop_toTopOf="@+id/inicio"
-            tools:layout_editor_absoluteX="137dp" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/marcologin" />
 
         <Button
             android:id="@+id/btnSalir"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="40dp"
             android:layout_gravity="center"
+            android:layout_marginTop="40dp"
             android:text="Salir"
             android:textColor="@color/textcol"
-            app:layout_constraintTop_toBottomOf="@+id/btnEmpezar"
-            tools:layout_editor_absoluteX="145dp" />
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnEmpezar" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <!-- Empezar Button -->

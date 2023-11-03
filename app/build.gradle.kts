@@ -4,7 +4,7 @@ plugins {
 
 android {
     namespace = "com.manuelyandres.rutinasdegimnasio"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.manuelyandres.rutinasdegimnasio"
