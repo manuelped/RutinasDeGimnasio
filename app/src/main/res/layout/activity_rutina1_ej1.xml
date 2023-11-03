@@ -72,7 +72,7 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/textmod"
         android:layout_width="373dp"
         android:layout_height="228dp"
         android:layout_marginStart="16dp"
@@ -86,7 +86,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/imgmod"
         android:layout_width="240dp"
         android:layout_height="241dp"
         android:layout_marginStart="85dp"
@@ -94,11 +94,11 @@
         android:layout_marginEnd="86dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintTop_toBottomOf="@+id/textmod"
         app:srcCompat="@drawable/ic_launcher_background" />
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/btnatra"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -106,13 +106,13 @@
         android:layout_marginBottom="16dp"
         android:rotation="180"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/imageView3"
+        app:layout_constraintEnd_toStartOf="@+id/imgmod"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintTop_toBottomOf="@+id/textmod"
         app:srcCompat="@android:drawable/ic_menu_send" />
 
     <ImageView
-        android:id="@+id/imageView5"
+        android:id="@+id/btnadel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="279dp"
@@ -120,12 +120,12 @@
         android:layout_marginBottom="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageView3"
-        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintStart_toEndOf="@+id/imgmod"
+        app:layout_constraintTop_toBottomOf="@+id/textmod"
         app:srcCompat="@android:drawable/ic_menu_send" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btnvolvinicio"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="67dp"
@@ -134,9 +134,9 @@
         android:layout_marginBottom="16dp"
         android:text="volver al inicio"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/imageView5"
-        app:layout_constraintStart_toEndOf="@+id/imageView4"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintEnd_toStartOf="@+id/btnadel"
+        app:layout_constraintStart_toEndOf="@+id/btnatra"
+        app:layout_constraintTop_toBottomOf="@+id/imgmod"
         app:layout_constraintVertical_bias="0.52" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
