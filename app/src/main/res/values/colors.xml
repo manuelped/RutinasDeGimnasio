@@ -2,8 +2,8 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="botonescol">#CEE5F2</color>
-    <color name="backgroudcol">#002147</color>
-    <color name="uicol">#BF4F51</color>
+    <color name="botonescol">#7b9876</color>
+    <color name="backgroudcol">#1e1b16</color>
+    <color name="uicol">#d8c4a0</color>
     <color name="textcol">#FFFFFF</color>
 </resources>
