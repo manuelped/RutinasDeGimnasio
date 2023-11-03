@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "351932922215",
+    "project_id": "android-proy",
+    "storage_bucket": "android-proy.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:351932922215:android:d2ecccc36a32a8073197c2",
+        "android_client_info": {
+          "package_name": "com.manuelyandres.rutinasdegimnasio"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkVlIJlzGBDF-ifFQTDDGr84o4KTm6JIY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
