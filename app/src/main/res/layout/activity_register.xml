@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/backgroudcol">
+
+    <EditText
+        android:id="@+id/editTextUsername"
+        android:layout_width="380dp"
+        android:layout_gravity="center"
+        android:layout_height="70dp"
+        android:hint="Usuario"
+        android:paddingLeft="20dp"
+        android:layout_marginTop="100dp"
+        android:background="@color/uicol"
+        android:textColor="@color/textcol"
+        android:textColorHint="@color/textcol"
+        />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="380dp"
+        android:layout_gravity="center"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:hint="Contraseña"
+        android:paddingLeft="20dp"
+        android:inputType="textPassword"
+        android:background="@color/uicol"
+        android:textColor="@color/textcol"
+        android:textColorHint="@color/textcol"/>
+
+        <Button
+            android:id="@+id/buttonConfirm"
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="80dp"
+            android:text="Confirmar"
+            android:layout_marginLeft="100dp"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/buttonCancel"
+            android:layout_width="200dp"
+            android:layout_marginTop="40dp"
+            android:layout_height="70dp"
+            android:text="Cancelar"
+            android:layout_marginLeft="100dp"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
