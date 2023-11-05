@@ -12,31 +12,50 @@
         android:orientation="vertical"
         android:background="@color/backgroudcol">
 
-    <EditText
-        android:id="@+id/editTextUsername"
-        android:layout_width="380dp"
-        android:layout_gravity="center"
-        android:layout_height="70dp"
-        android:hint="Usuario"
-        android:paddingLeft="20dp"
-        android:layout_marginTop="100dp"
-        android:background="@color/uicol"
-        android:textColor="@color/textcol"
-        android:textColorHint="@color/textcol"
-        />
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/idusu"
+            android:layout_width="380dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp"
+            android:textColorHint="@color/textcol">
 
-    <EditText
-        android:id="@+id/editTextPassword"
-        android:layout_width="380dp"
-        android:layout_gravity="center"
-        android:layout_height="70dp"
-        android:layout_marginTop="20dp"
-        android:hint="Contraseña"
-        android:paddingLeft="20dp"
-        android:inputType="textPassword"
-        android:background="@color/uicol"
-        android:textColor="@color/textcol"
-        android:textColorHint="@color/textcol"/>
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/inputTextUsernameregister"
+                android:layout_width="380dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="100dp"
+                android:background="@color/uicol"
+                android:hint="Usuario"
+                android:paddingLeft="20dp"
+                android:textColor="@color/textcol"
+                android:textColorHint="@color/textcol" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/idcon"
+            android:layout_width="380dp"
+            android:layout_gravity="center"
+            android:layout_height="70dp"
+            android:layout_marginTop="20dp"
+            android:textColorHint="@color/textcol"
+
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/inputTextPasswordregister"
+                android:layout_width="380dp"
+                android:layout_gravity="center"
+                android:layout_height="70dp"
+                android:layout_marginTop="20dp"
+                android:hint="Contraseña"
+                android:paddingLeft="20dp"
+                android:inputType="textPassword"
+                android:background="@color/uicol"
+                android:textColor="@color/textcol"
+                android:textColorHint="@color/textcol" />
+        </com.google.android.material.textfield.TextInputLayout>
 
         <Button
             android:id="@+id/buttonConfirm"
